@@ -9,11 +9,11 @@ To run this program, import BLE_GattServer_AddService project into mbed studio f
 Note that the program will print the MAC address of the device, which will need to be used in GATT_client.py
 
 GATT_client.py: Use bluepy package to run a GATT client on Raspberry Pi
-To run this program, modify the following code in GATT_clinet.py
+To run this program, modify the following line in GATT_clinet.py:
 
 dev = Peripheral("c4:5c:fc:95:18:2f", 'random') #change the MAC address of GATT server here
 
-After the modification, the code is ready to run
+After the modification, the code is ready to run.
 
 Running program:
 1. Runs GATT server on STM32 first(main.cpp)
